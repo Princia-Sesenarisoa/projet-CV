@@ -1,0 +1,8 @@
+@media(max-width: 768px){
+   
+    .l1{
+    width: 2vw;
+    height: 1vh;
+    border-radius: 12px;
+}
+}
