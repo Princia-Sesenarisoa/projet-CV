@@ -5,4 +5,12 @@
     height: 1vh;
     border-radius: 12px;
 }
+
+#chargement h1{
+    position: absolute;
+    font-size: 40px;
+    top: 8rem;
+    left: 6rem;
+
+}
 }

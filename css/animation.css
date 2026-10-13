@@ -1,3 +1,4 @@
+/* Animation des bullets de chargement */
 @keyframes bouge1{
         0%{ transform: translateY(0);}
    20%{ transform: translateY(-20px); background: #053b37;}
@@ -22,10 +23,11 @@
    100%{ transform: translateY(0); background: #fff;}
 }
 
+/* animation d'apparition du site */
 @keyframes entrer{
     from{
         opacity: 0;
-        transform: scale(1.08);
+        transform: scale(1.1);
         filter: blur(8px);
     }
     to{
@@ -35,6 +37,7 @@
     }
 }
 
+/* animation d'apparition du texte */
 @keyframes txtentrer{
         from{
         opacity: 0;
@@ -43,5 +46,31 @@
     to{
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+/* animation d'apparition du titre h1 */
+@keyframes h1entrer{
+        from{
+        opacity: 0;
+        scale: 0;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+/* animation du disparition du titre h1 */
+@keyframes disparitionh1{
+    from{
+        opacity: 1;
+        transform: scale(1);
+        filter: blur(0);
+    }
+    to{
+        opacity: 0;
+        transform: scale(1.2500);
+        filter: blur(6px);
     }
 }
